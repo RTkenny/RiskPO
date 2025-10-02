@@ -1,13 +1,9 @@
 set -x
 
-# (0.1,0.8) (0.3,0.8) (0.4,0.8) (0.2,0.6) (0.2,0.7) (0.2,0.9) | (0.2,0.8)
-
-# 1 1.1 1.5 1.6 2.0
-
-gsm8k_train_path=$HOME/autodl-tmp/dataset/gsm8k/train.parquet
-gsm8k_test_path=$HOME/autodl-tmp/dataset/gsm8k/test.parquet
-math_train_path=$HOME/autodl-tmp/dataset/math/train.parquet
-math_test_path=$HOME/autodl-tmp/dataset/math/test.parquet
+gsm8k_train_path=$HOME/dataset/gsm8k/train.parquet
+gsm8k_test_path=$HOME/dataset/gsm8k/test.parquet
+math_train_path=$HOME/dataset/math/train.parquet
+math_test_path=$HOME/dataset/math/test.parquet
 
 train_files="['$gsm8k_train_path','$math_train_path']"
 test_files="['$gsm8k_test_path','$math_test_path']"
