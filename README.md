@@ -121,12 +121,12 @@ If you have any question about our work or this repository, please don't hesitat
 - [rtkenny@stu.pku.edu.cn](rtkenny@stu.pku.edu.cn)
 - [jyjiang.ai@gmail.com](jyjiang.ai@gmail.com)
 
-Please cite the following (To be uploaded in arxiv):
+Please cite the following:
 
 ```bibtex
-@article{ren2025RiskPO,
-  title={RiskPO: Risk-Based Policy Optimization via Verfiable Reward for LLM Post-Training},
-  author={Tao Ren},
-  journal={arXiv preprint},
+@article{ren2025riskpo,
+  title={RiskPO: Risk-based Policy Optimization via Verifiable Reward for LLM Post-Training},
+  author={Ren, Tao and Jiang, Jinyang and Yang, Hui and Tian, Wan and Zou, Minhao and Li, Guanghao and Zhang, Zishi and Wang, Qinghao and Qin, Shentao and Zhao, Yanjun and others},
+  journal={arXiv preprint arXiv:2510.00911},
   year={2025}
 }
